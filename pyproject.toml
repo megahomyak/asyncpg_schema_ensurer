@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "asyncpg-schema-ensurer"
+version = "0.1.0"
+description = ""
+authors = ["megahomyak <g.megahomyak@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+database-schema-ensurer = "^2.0.0"
+asyncpg = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
